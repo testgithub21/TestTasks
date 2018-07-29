@@ -1,0 +1,29 @@
+//Условие 
+//С клавиатуры вводятся два числа – количество забитых голов хозяевами и гостями в футбольном матче. 
+//Вывести на экран результат игры – победили хозяева/гости/ничья.
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int host;
+		int guest;
+		Console.WriteLine("Введите кол-во мячей забитых хозяевами");
+		host= Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine("Введите кол-во мячей забитых гостями");
+		guest= Convert.ToInt32(Console.ReadLine());
+			if (host > guest)
+		
+			Console.WriteLine("Победили хозяева!");
+		
+			else if (host<guest)
+		
+			Console.WriteLine("Победили гости");
+		
+			else
+		
+			Console.WriteLine("Ничья!");
+	}
+}	
+		
