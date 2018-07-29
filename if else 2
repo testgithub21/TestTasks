@@ -1,0 +1,29 @@
+//Условие 
+//Напишите программу, которая будет проверять число на кратность 3-м и 7-ми (это числа 21, 42, 63…).
+//Вывести на экран соответствующее сообщение.
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int a = 21;
+		int b = 42;
+		int c = 63;
+		int quant = 3;
+		int quant2 = 7;
+		
+		if (a % 3 == 0)
+		Console.WriteLine(a + " " + "Кратное" + " "+ quant);
+		if (a% 7 == 0)
+		Console.WriteLine(a + " " + "Кратное" + " "+ quant2);
+		if (b % 3 == 0)
+		Console.WriteLine(b + " " + "Кратное" + " "+ quant);
+		if (b% 7 == 0)
+		Console.WriteLine(b + " " + "Кратное" + " "+ quant2);
+		if (c%3==0)
+		Console.WriteLine(c + " " + "Кратное" + " "+ quant);
+		if (c%7==0)
+		Console.WriteLine(c + " "+ "Кратное" + " "+ quant2);
+	}	
+}
