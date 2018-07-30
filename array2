@@ -1,0 +1,23 @@
+//Условие 
+//Используя цикл foreach, выведите на экран все элементы массива целых чисел, которые больше 20 и меньше 50.
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int [] array = new int [50];
+		for (int i =1; i<array.Length; i++)
+		{
+			array[i] = i;
+			
+		}
+		foreach (int j in array)
+		{
+			if (j>20&&j<50)
+			{
+			Console.WriteLine(j);
+			}
+	}
+}	
+}	
