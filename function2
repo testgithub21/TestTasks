@@ -1,29 +1,3 @@
-//Условие:
-//Напишите функцию, которая будет находить минимальное число из трех.
 
-using System;
-public class Program
-{
-	public static void Main(string[] args)
-		{
-			int[] numbers = {1, 21, 33};
-			Console.WriteLine(getMaxNumber(numbers));			
-			
-		}
-		public static int getMaxNumber(int[] array)//функция 
-	{
-		int max = array[0];
-		for (int i = 0; i < array.Length; i++)
-		{
-			if (array[i] > array[max])
-			{
-				max = array[i];
-			}
-
-			
-		}
-			return max;
-	}
-}
 
 
