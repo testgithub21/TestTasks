@@ -7,9 +7,7 @@ public class Program
 	public static void Main(string[] args)
 		{
 			int[] numbers = {1, 21, 33};
-			Console.WriteLine(getMaxNumber(numbers));
-			
-		//	^ Тут что-то вернулось. Но что? о_0 j
+			Console.WriteLine(getMaxNumber(numbers));			
 			
 		}
 		public static int getMaxNumber(int[] array)//функция 
